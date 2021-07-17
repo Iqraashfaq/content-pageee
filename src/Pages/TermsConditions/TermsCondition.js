@@ -18,6 +18,21 @@ const TermsCondition = () => {
         padding: theme.spacing(4),
       },
     },
+    contentLink: {
+      color: "#e75788",
+    },
+    contentHeadings: {
+      // for headings
+    },
+    contentTypographys: {
+      // for typography content
+    },
+    contentMainHeading: {
+      //for terms of use heading
+    },
+    contentBold: {
+      //for bold content
+    },
   }));
 
   const classes = useStyles();
@@ -27,230 +42,102 @@ const TermsCondition = () => {
         <Headerr />
       </div>
       <Paper className={classes.paperTwo}>
-        <Typography variant="h4">TERMS OF USE</Typography> <br />
-        <Typography>Last updated March 01, 2021</Typography>
+        <Typography className={classes.contentMainHeading} variant="h4">
+          TERMS OF USE
+        </Typography>
+        <br />
+        <Typography className={classes.contentTypographys}>
+          Last updated March 01, 2021
+        </Typography>
         <br />
         <h2>TABLE OF CONTENTS</h2>
         <ul>
-          <a
-            href="#link-one"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-one" className={classes.contentLink}>
             <li>AGREEMENT TO TERMS</li>
           </a>
-          <a
-            href="#link-two"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-two" className={classes.contentLink}>
             <li>INTELLECTUAL PROPERTY RIGHTS</li>
           </a>
-          <a
-            href="#link-three"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-three" className={classes.contentLink}>
             <li>USER REPRESENTATIONS</li>
           </a>
-          <a
-            href="#link-four"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-four" className={classes.contentLink}>
             <li>USER REGISTRATION</li>
           </a>
-          <a
-            href="#link-five"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-five" className={classes.contentLink}>
             <li>PROHIBITED ACTIVITIES</li>
           </a>
-          <a
-            href="#link-six"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-six" className={classes.contentLink}>
             <li>USER GENERATED CONTRIBUTIONS </li>
           </a>
-          <a
-            href="#link-seven"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-seven" className={classes.contentLink}>
             <li>CONTRIBUTION LICENSE</li>
           </a>
-          <a
-            href="#link-eight"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-eight" className={classes.contentLink}>
             <li>GUIDELINES FOR REVIEWS</li>
           </a>
-          <a
-            href="#link-nine"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-nine" className={classes.contentLink}>
             <li>MOBILE APPLICATION LICENSE</li>
           </a>
-          <a
-            href="#link-ten"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-ten" className={classes.contentLink}>
             <li>SOCIAL MEDIA</li>
           </a>
-          <a
-            href="#link-eleven"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-eleven" className={classes.contentLink}>
             <li>SUBMISSIONS</li>
           </a>
-          <a
-            href="#link-twelve"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twelve" className={classes.contentLink}>
             <li>ADVERTISERS</li>
           </a>
-          <a
-            href="#link-thirteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-thirteen" className={classes.contentLink}>
             <li>SITE MANAGEMENT</li>
           </a>
-          <a
-            href="#link-fourteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-fourteen" className={classes.contentLink}>
             <li>PRIVACY POLICY</li>
           </a>
-          <a
-            href="#link-fifteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-fifteen" className={classes.contentLink}>
             <li>COPYRIGHT INFRINGEMENTS</li>
           </a>
-          <a
-            href="#link-sixteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-sixteen" className={classes.contentLink}>
             <li>TERM AND TERMINATION</li>
           </a>
-          <a
-            href="#link-seventeen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-seventeen" className={classes.contentLink}>
             <li>MODIFICATIONS AND INTERRUPTIONS</li>
           </a>
-          <a
-            href="#link-eighteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-eighteen" className={classes.contentLink}>
             <li>GOVERNING LAW</li>
           </a>
-          <a
-            href="#link-nineteen"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-nineteen" className={classes.contentLink}>
             <li>DISPUTE RESOLUTION</li>
           </a>
-          <a
-            href="#link-twenty"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twenty" className={classes.contentLink}>
             <li>CORRECTIONS</li>
           </a>
-          <a
-            href="#link-twentyone"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentyone" className={classes.contentLink}>
             <li>DISCLAIMER</li>
           </a>
-          <a
-            href="#link-twentytwo"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentytwo" className={classes.contentLink}>
             <li>LIMITATIONS OF LIABILITY</li>
           </a>
-          <a
-            href="#link-twentythree"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentythree" className={classes.contentLink}>
             <li>INDEMNIFICATION</li>
           </a>
-          <a
-            href="#link-twentyfour"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentyfour" className={classes.contentLink}>
             <li>USER DATA</li>
           </a>
-          <a
-            href="#link-twentyfive"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentyfive" className={classes.contentLink}>
             <li>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</li>
           </a>
-          <a
-            href="#link-twentysix"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentysix" className={classes.contentLink}>
             <li>MISCELLANEOUS</li>
           </a>
-          <a
-            href="#link-twentyseven"
-            style={{
-              color: "#e75788",
-            }}
-          >
+          <a href="#link-twentyseven" className={classes.contentLink}>
             <li>CONTACT US </li>
           </a>
         </ul>
-        <h1 id="link-one">AGREEMENT TO TERMS</h1>
-        <Typography>
+        <h2 id="link-one" className={classes.contentHeadings}>
+          AGREEMENT TO TERMS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           These Terms of Use constitute a legally binding agreement made between
           you, whether personally or on behalf of an entity (“you”) and
           Techscientia Private Limited, doing business as NOQ ("NOQ", “we”,
@@ -262,8 +149,7 @@ const TermsCondition = () => {
           bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF
           THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE
           SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-        </Typography>
-        <Typography>
+          <br />
           Supplemental terms and conditions or documents that may be posted on
           the Site from time to time are hereby expressly incorporated herein by
           reference. We reserve the right, in our sole discretion, to make
@@ -276,8 +162,7 @@ const TermsCondition = () => {
           and to have accepted, the changes in any revised Terms of Use by your
           continued use of the Site after the date such revised Terms of Use are
           posted.
-        </Typography>
-        <Typography>
+          <br />
           The information provided on the Site is not intended for distribution
           to or use by any person or entity in any jurisdiction or country where
           such distribution or use would be contrary to law or regulation or
@@ -286,8 +171,7 @@ const TermsCondition = () => {
           access the Site from other locations do so on their own initiative and
           are solely responsible for compliance with local laws, if and to the
           extent local laws are applicable.
-        </Typography>
-        <Typography>
+          <br />
           The Site is intended for users who are at least 13 years of age. All
           users who are minors in the jurisdiction in which they reside
           (generally under the age of 18) must have the permission of, and be
@@ -295,8 +179,10 @@ const TermsCondition = () => {
           you are a minor, you must have your parent or guardian read and agree
           to these Terms of Use prior to you using the Site.
         </Typography>
-        <h2 id="link-two">INTELLECTUAL PROPERTY RIGHTS</h2>
-        <Typography>
+        <h2 id="link-two" className={classes.contentHeadings}>
+          INTELLECTUAL PROPERTY RIGHTS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           Unless otherwise indicated, the Site is our proprietary property and
           all source code, databases, functionality, software, website designs,
           audio, video, text, photographs, and graphics on the Site
@@ -312,8 +198,7 @@ const TermsCondition = () => {
           posted, publicly displayed, encoded, translated, transmitted,
           distributed, sold, licensed, or otherwise exploited for any commercial
           purpose whatsoever, without our express prior written permission.
-        </Typography>
-        <Typography>
+          <br />
           Provided that you are eligible to use the Site, you are granted a
           limited license to access and use the Site and to download or print a
           copy of any portion of the Content to which you have properly gained
@@ -321,8 +206,10 @@ const TermsCondition = () => {
           rights not expressly granted to you in and to the Site, the Content
           and the Marks.
         </Typography>
-        <h2 id="link-three">USER REPRESENTATIONS</h2>
-        <Typography>
+        <h2 id="link-three" className={classes.contentHeadings}>
+          USER REPRESENTATIONS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           By using the Site, you represent and warrant that: (1) all
           registration information you submit will be true, accurate, current,
           and complete; (2) you will maintain the accuracy of such information
@@ -335,15 +222,16 @@ const TermsCondition = () => {
           or otherwise; (7) you will not use the Site for any illegal or
           unauthorized purpose; and (8) your use of the Site will not violate
           any applicable law or regulation.
-        </Typography>
-        <Typography>
+          <br />
           If you provide any information that is untrue, inaccurate, not
           current, or incomplete, we have the right to suspend or terminate your
           account and refuse any and all current or future use of the Site (or
           any portion thereof).
         </Typography>
-        <h2 id="link-four">USER REGISTRATION</h2>
-        <Typography>
+        <h2 id="link-four" className={classes.contentHeadings}>
+          USER REGISTRATION
+        </h2>
+        <Typography className={classes.contentTypographys}>
           You may be required to register with the Site. You agree to keep your
           password confidential and will be responsible for all use of your
           account and password. We reserve the right to remove, reclaim, or
@@ -351,127 +239,134 @@ const TermsCondition = () => {
           that such username is inappropriate, obscene, or otherwise
           objectionable.
         </Typography>
-        <h2 id="link-five">PROHIBITED ACTIVITIES</h2>
-        <Typography>
+        <h2 id="link-five" className={classes.contentHeadings}>
+          PROHIBITED ACTIVITIES
+        </h2>
+        <Typography className={classes.contentTypographys}>
           You may not access or use the Site for any purpose other than that for
           which we make the Site available. The Site may not be used in
           connection with any commercial endeavors except those that are
           specifically endorsed or approved by us.
+          <br />
+          As a user of the Site, you agree not to:
+          <br />
+          <ol>
+            <li>
+              Systematically retrieve data or other content from the Site to
+              create or compile, directly or indirectly, a collection,
+              compilation, database, or directory without written permission
+              from us.
+            </li>
+            <li>
+              Trick, defraud, or mislead us and other users, especially in any
+              attempt to learn sensitive account information such as user
+              passwords.
+            </li>
+            <li>
+              Circumvent, disable, or otherwise interfere with security-related
+              features of the Site, including features that prevent or restrict
+              the use or copying of any Content or enforce limitations on the
+              use of the Site and/or the Content contained therein.
+            </li>
+            <li>
+              Disparage, tarnish, or otherwise harm, in our opinion, us and/or
+              the Site.
+            </li>
+            <li>
+              Use any information obtained from the Site in order to harass,
+              abuse, or harm another person.
+            </li>
+            <li>
+              Make improper use of our support services or submit false reports
+              of abuse or misconduct.
+            </li>
+            <li>
+              Use the Site in a manner inconsistent with any applicable laws or
+              regulations.
+            </li>
+            <li>
+              Use the Site to advertise or offer to sell goods and services.
+            </li>
+            <li>Engage in unauthorized framing of or linking to the Site.</li>
+            <li>
+              Upload or transmit (or attempt to upload or to transmit) viruses,
+              Trojan horses, or other material, including excessive use of
+              capital letters and spamming (continuous posting of repetitive
+              text), that interferes with any party’s uninterrupted use and
+              enjoyment of the Site or modifies, impairs, disrupts, alters, or
+              interferes with the use,features, functions, operation, or
+              maintenance of the Site.
+            </li>
+            <li>
+              Engage in any automated use of the system, such as using scripts
+              to send comments or messages, or using any data mining, robots, or
+              similar data gathering and extraction tools.
+            </li>
+            <li>
+              Delete the copyright or other proprietary rights notice from any
+              Content.
+            </li>
+            <li>
+              Attempt to impersonate another user or person or use the username
+              of another user.
+            </li>
+            <li>Sell or otherwise transfer your profile.</li>
+            <li>
+              Upload or transmit (or attempt to upload or to transmit) any
+              material that acts as a passive or active information collection
+              or transmission mechanism, including without limitation, clear
+              graphics interchange formats (“gifs”), 1×1 pixels, web bugs,
+              cookies, or other similar devices (sometimes referred to as
+              “spyware” or “passive collection mechanisms” or “PCMS”).
+            </li>
+            <li>
+              Interfere with, disrupt, or create an undue burden on the Site or
+              the networks or services connected to the Site.
+            </li>
+            <li>
+              Harass, annoy, intimidate, or threaten any of our employees or
+              agents engaged in providing any portion of the Site to you.
+            </li>
+            <li>
+              Attempt to bypass any measures of the Site designed to prevent or
+              restrict access to the Site, or any portion of the Site.
+            </li>
+            <li>
+              Copy or adapt the Site’s software, including but not limited to
+              Flash, PHP, HTML, JavaScript, or other code.
+            </li>
+            <li>
+              Decipher, decompile, disassemble, or reverse engineer any of the
+              software comprising or in any way making up a part of the Site.
+            </li>
+            <li>
+              Except as may be the result of standard search engine or Internet
+              browser usage, use, launch, develop, or distribute any automated
+              system, including without limitation, any spider, robot, cheat
+              utility, scraper, or offline reader that accesses the Site, or
+              using or launching any unauthorized script or other software.
+            </li>
+            <li>
+              Use a buying agent or purchasing agent to make purchases on the
+              Site.
+            </li>
+            <li>
+              Make any unauthorized use of the Site, including collecting
+              usernames and/or email addresses of users by electronic or other
+              means for the purpose of sending unsolicited email, or creating
+              user accounts by automated means or under false pretenses.
+            </li>
+            <li>
+              Use the Site as part of any effort to compete with us or otherwise
+              use the Site and/or the Content for any revenue-generating
+              endeavor or commercial enterprise.
+            </li>
+          </ol>
         </Typography>
-        <Typography>As a user of the Site, you agree not to:</Typography>
-        <ol>
-          <li>
-            Systematically retrieve data or other content from the Site to
-            create or compile, directly or indirectly, a collection,
-            compilation, database, or directory without written permission from
-            us.
-          </li>
-          <li>
-            Trick, defraud, or mislead us and other users, especially in any
-            attempt to learn sensitive account information such as user
-            passwords.
-          </li>
-          <li>
-            Circumvent, disable, or otherwise interfere with security-related
-            features of the Site, including features that prevent or restrict
-            the use or copying of any Content or enforce limitations on the use
-            of the Site and/or the Content contained therein.
-          </li>
-          <li>
-            Disparage, tarnish, or otherwise harm, in our opinion, us and/or the
-            Site.
-          </li>
-          <li>
-            Use any information obtained from the Site in order to harass,
-            abuse, or harm another person.
-          </li>
-          <li>
-            Make improper use of our support services or submit false reports of
-            abuse or misconduct.
-          </li>
-          <li>
-            Use the Site in a manner inconsistent with any applicable laws or
-            regulations.
-          </li>
-          <li>
-            Use the Site to advertise or offer to sell goods and services.
-          </li>
-          <li>Engage in unauthorized framing of or linking to the Site.</li>
-          <li>
-            Upload or transmit (or attempt to upload or to transmit) viruses,
-            Trojan horses, or other material, including excessive use of capital
-            letters and spamming (continuous posting of repetitive text), that
-            interferes with any party’s uninterrupted use and enjoyment of the
-            Site or modifies, impairs, disrupts, alters, or interferes with the
-            use,features, functions, operation, or maintenance of the Site.
-          </li>
-          <li>
-            Engage in any automated use of the system, such as using scripts to
-            send comments or messages, or using any data mining, robots, or
-            similar data gathering and extraction tools.
-          </li>
-          <li>
-            Delete the copyright or other proprietary rights notice from any
-            Content.
-          </li>
-          <li>
-            Attempt to impersonate another user or person or use the username of
-            another user.
-          </li>
-          <li>Sell or otherwise transfer your profile.</li>
-          <li>
-            Upload or transmit (or attempt to upload or to transmit) any
-            material that acts as a passive or active information collection or
-            transmission mechanism, including without limitation, clear graphics
-            interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or
-            other similar devices (sometimes referred to as “spyware” or
-            “passive collection mechanisms” or “PCMS”).
-          </li>
-          <li>
-            Interfere with, disrupt, or create an undue burden on the Site or
-            the networks or services connected to the Site.
-          </li>
-          <li>
-            Harass, annoy, intimidate, or threaten any of our employees or
-            agents engaged in providing any portion of the Site to you.
-          </li>
-          <li>
-            Attempt to bypass any measures of the Site designed to prevent or
-            restrict access to the Site, or any portion of the Site.
-          </li>
-          <li>
-            Copy or adapt the Site’s software, including but not limited to
-            Flash, PHP, HTML, JavaScript, or other code.
-          </li>
-          <li>
-            Decipher, decompile, disassemble, or reverse engineer any of the
-            software comprising or in any way making up a part of the Site.
-          </li>
-          <li>
-            Except as may be the result of standard search engine or Internet
-            browser usage, use, launch, develop, or distribute any automated
-            system, including without limitation, any spider, robot, cheat
-            utility, scraper, or offline reader that accesses the Site, or using
-            or launching any unauthorized script or other software.
-          </li>
-          <li>
-            Use a buying agent or purchasing agent to make purchases on the
-            Site.
-          </li>
-          <li>
-            Make any unauthorized use of the Site, including collecting
-            usernames and/or email addresses of users by electronic or other
-            means for the purpose of sending unsolicited email, or creating user
-            accounts by automated means or under false pretenses.
-          </li>
-          <li>
-            Use the Site as part of any effort to compete with us or otherwise
-            use the Site and/or the Content for any revenue-generating endeavor
-            or commercial enterprise.
-          </li>
-        </ol>
-        <h2 id="link-six">USER GENERATED CONTRIBUTIONS </h2>
-        <Typography>
+        <h2 id="link-six" className={classes.contentHeadings}>
+          USER GENERATED CONTRIBUTIONS{" "}
+        </h2>
+        <Typography className={classes.contentTypographys}>
           The Site may invite you to chat, contribute to, or participate in
           blogs, message boards, online forums, and other functionality, and may
           provide you with the opportunity to create, submit, post, display,
@@ -484,87 +379,90 @@ const TermsCondition = () => {
           transmit may be treated as non-confidential and non-proprietary. When
           you create or make available any Contributions, you thereby represent
           and warrant that:
-        </Typography>
-        <ol>
-          <li>
-            The creation, distribution, transmission, public display, or
-            performance, and the accessing, downloading, or copying of your
-            Contributions do not and will not infringe the proprietary rights,
-            including but not limited to the copyright, patent, trademark, trade
-            secret, or moral rights of any third party.
-          </li>
-          <li>
-            You are the creator and owner of or have the necessary licenses,
-            rights, consents, releases, and permissions to use and to authorize
-            us, the Site, and other users of the Site to use your Contributions
-            in any manner contemplated by the Site and these Terms of Use.
-          </li>
-          <li>
-            {" "}
-            You have the written consent, release, and/or permission of each and
-            every identifiable individual person in your Contributions to use
-            the name or likeness of each and every such identifiable individual
-            person to enable inclusion and use of your Contributions in any
-            manner contemplated by the Site and these Terms of Use.
-          </li>
-          <li>Your Contributions are not false, inaccurate, or misleading.</li>
-          <li>
-            {" "}
-            Your Contributions are not unsolicited or unauthorized advertising,
-            promotional materials, pyramid schemes, chain letters, spam, mass
-            mailings, or other forms of solicitation.
-          </li>
-          <li>
-            Your Contributions are not obscene, lewd, lascivious, filthy,
-            violent, harassing, libelous, slanderous, or otherwise objectionable
-            (as determined by us).
-          </li>
-          <li>
-            Your Contributions do not ridicule, mock, disparage, intimidate, or
-            abuse anyone.
-          </li>
-          <li>
-            Your Contributions are not used to harass or threaten (in the legal
-            sense of those terms) any other person and to promote violence
-            against a specific person or class of people.
-          </li>
-          <li>
-            Your Contributions do not violate any applicable law, regulation, or
-            rule.
-          </li>
-          <li>
-            {" "}
-            Your Contributions do not violate the privacy or publicity rights of
-            any third party.
-          </li>
-          <li>
-            Your Contributions do not contain any material that solicits
-            personal information from anyone under the age of 18 or exploits
-            people under the age of 18 in a sexual or violent manner.
-          </li>
-          <li>
-            Your Contributions do not violate any applicable law concerning
-            child pornography, or otherwise intended to protect the health or
-            well-being of minors.
-          </li>
-          <li>
-            Your Contributions do not include any offensive comments that are
-            connected to race, national origin, gender, sexual preference, or
-            physical handicap.
-          </li>
-          <li>
-            Your Contributions do not otherwise violate, or link to material
-            that violates, any provision of these Terms of Use, or any
-            applicable law or regulation.
-          </li>
-        </ol>
-        <Typography>
+          <br />
+          <ol>
+            <li>
+              The creation, distribution, transmission, public display, or
+              performance, and the accessing, downloading, or copying of your
+              Contributions do not and will not infringe the proprietary rights,
+              including but not limited to the copyright, patent, trademark,
+              trade secret, or moral rights of any third party.
+            </li>
+            <li>
+              You are the creator and owner of or have the necessary licenses,
+              rights, consents, releases, and permissions to use and to
+              authorize us, the Site, and other users of the Site to use your
+              Contributions in any manner contemplated by the Site and these
+              Terms of Use.
+            </li>
+            <li>
+              You have the written consent, release, and/or permission of each
+              and every identifiable individual person in your Contributions to
+              use the name or likeness of each and every such identifiable
+              individual person to enable inclusion and use of your
+              Contributions in any manner contemplated by the Site and these
+              Terms of Use.
+            </li>
+            <li>
+              Your Contributions are not false, inaccurate, or misleading.
+            </li>
+            <li>
+              Your Contributions are not unsolicited or unauthorized
+              advertising, promotional materials, pyramid schemes, chain
+              letters, spam, mass mailings, or other forms of solicitation.
+            </li>
+            <li>
+              Your Contributions are not obscene, lewd, lascivious, filthy,
+              violent, harassing, libelous, slanderous, or otherwise
+              objectionable (as determined by us).
+            </li>
+            <li>
+              Your Contributions do not ridicule, mock, disparage, intimidate,
+              or abuse anyone.
+            </li>
+            <li>
+              Your Contributions are not used to harass or threaten (in the
+              legal sense of those terms) any other person and to promote
+              violence against a specific person or class of people.
+            </li>
+            <li>
+              Your Contributions do not violate any applicable law, regulation,
+              or rule.
+            </li>
+            <li>
+              Your Contributions do not violate the privacy or publicity rights
+              of any third party.
+            </li>
+            <li>
+              Your Contributions do not contain any material that solicits
+              personal information from anyone under the age of 18 or exploits
+              people under the age of 18 in a sexual or violent manner.
+            </li>
+            <li>
+              Your Contributions do not violate any applicable law concerning
+              child pornography, or otherwise intended to protect the health or
+              well-being of minors.
+            </li>
+            <li>
+              Your Contributions do not include any offensive comments that are
+              connected to race, national origin, gender, sexual preference, or
+              physical handicap.
+            </li>
+            <li>
+              Your Contributions do not otherwise violate, or link to material
+              that violates, any provision of these Terms of Use, or any
+              applicable law or regulation.
+            </li>
+          </ol>
+          <br />
           Any use of the Site in violation of the foregoing violates these Terms
           of Use and may result in, among other things, termination or
           suspension of your rights to use the Site.
         </Typography>
-        <h2 id="link-seven">CONTRIBUTION LICENSE</h2>
-        <Typography>
+        <h2 id="link-seven" className={classes.contentHeadings}>
+          CONTRIBUTION LICENSE
+        </h2>
+        <Typography className={classes.contentTypographys}>
           By posting your Contributions to any part of the Site or making
           Contributions accessible to the Site by linking your account from the
           Site to any of your social networking accounts, you automatically
@@ -580,8 +478,7 @@ const TermsCondition = () => {
           incorporate into other works, such Contributions, and grant and
           authorize sublicenses of the foregoing. The use and distribution may
           occur in any media formats and through any media channels.
-        </Typography>
-        <Typography>
+          <br />
           This license will apply to any form, media, or technology now known or
           hereafter developed, and includes our use of your name, company name,
           and franchise name, as applicable, and any of the trademarks, service
@@ -589,8 +486,7 @@ const TermsCondition = () => {
           provide. You waive all moral rights in your Contributions, and you
           warrant that moral rights have not otherwise been asserted in your
           Contributions.
-        </Typography>
-        <Typography>
+          <br />
           We do not assert any ownership over your Contributions. You retain
           full ownership of all of your Contributions and any intellectual
           property rights or other proprietary rights associated with your
@@ -599,8 +495,7 @@ const TermsCondition = () => {
           solely responsible for your Contributions to the Site and you
           expressly agree to exonerate us from any and all responsibility and to
           refrain from any legal action against us regarding your Contributions.
-        </Typography>
-        <Typography>
+          <br />
           We have the right, in our sole and absolute discretion, (1) to edit,
           redact, or otherwise change any Contributions; (2) to re-categorize
           any Contributions to place them in more appropriate locations on the
@@ -608,8 +503,10 @@ const TermsCondition = () => {
           and for any reason, without notice. We have no obligation to monitor
           your Contributions.
         </Typography>
-        <h2 id="link-eight">GUIDELINES FOR REVIEWS</h2>
-        <Typography>
+        <h2 id="link-eight" className={classes.contentHeadings}>
+          GUIDELINES FOR REVIEWS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We may provide you areas on the Site to leave reviews or ratings. When
           posting a review, you must comply with the following criteria: (1) you
           should have firsthand experience with the person/entity being
@@ -623,8 +520,7 @@ const TermsCondition = () => {
           legality of conduct; (7) you may not post any false or misleading
           statements; and (8) you may not organize a campaign encouraging others
           to post reviews, whether positive or negative.
-        </Typography>
-        <Typography>
+          <br />
           We may accept, reject, or remove reviews in our sole discretion. We
           have absolutely no obligation to screen reviews or to delete reviews,
           even if anyone considers reviews objectionable or inaccurate. Reviews
@@ -637,12 +533,13 @@ const TermsCondition = () => {
           translate, transmit by any means, display, perform, and/or distribute
           all content relating to reviews.
         </Typography>
-        <h1 id="link-nine">MOBILE APPLICATION LICENSE</h1>
-        <Typography>
-          <strong>Use License</strong>
-        </Typography>
+        <h1 id="link-nine" className={classes.contentHeadings}>
+          MOBILE APPLICATION LICENSE
+        </h1>
         <br />
-        <Typography>
+        <span className={classes.contentBold}> Use License</span>
+        <br />
+        <Typography className={classes.contentTypographys}>
           If you access the Site via a mobile application, then we grant you a
           revocable, non-exclusive, non-transferable, limited right to install
           and use the mobile application on wireless electronic devices owned or
@@ -670,8 +567,8 @@ const TermsCondition = () => {
           licensing, or distribution of any applications, accessories, or
           devices for use with the application.
         </Typography>
-        <h2>Apple and Android Devices</h2>
-        <Typography>
+        <h2 className={classes.contentHeadings}>Apple and Android Devices</h2>
+        <Typography className={classes.contentTypographys}>
           The following terms apply when you use a mobile application obtained
           from either the Apple Store or Google Play (each an “App Distributor”)
           to access the Site: (1) the license granted to you for our mobile
@@ -708,8 +605,10 @@ const TermsCondition = () => {
           application license contained in these Terms of Use against you as a
           third-party beneficiary thereof.
         </Typography>
-        <h2 id="link-ten">SOCIAL MEDIA</h2>
-        <Typography>
+        <h2 id="link-ten" className={classes.contentHeadings}>
+          SOCIAL MEDIA
+        </h2>
+        <Typography className={classes.contentTypographys}>
           As part of the functionality of the Site, you may link your account
           with online accounts you have with third-party service providers (each
           such account, a “Third-Party Account”) by either: (1) providing your
@@ -757,8 +656,10 @@ const TermsCondition = () => {
           such Third-Party Account, except the username and profile picture that
           become associated with your account.
         </Typography>
-        <h2 id="link-eleven">SUBMISSIONS</h2>
-        <Typography>
+        <h2 id="link-eleven" className={classes.contentHeadings}>
+          SUBMISSIONS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           You acknowledge and agree that any questions, comments, suggestions,
           ideas, feedback, or other information regarding the Site
           ("Submissions") provided by you to us are non-confidential and shall
@@ -773,8 +674,10 @@ const TermsCondition = () => {
           alleged or actual infringement or misappropriation of any proprietary
           right in your Submissions.
         </Typography>
-        <h2 id="link-twelve">ADVERTISERS</h2>
-        <Typography>
+        <h2 id="link-twelve" className={classes.contentHeadings}>
+          ADVERTISERS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We allow advertisers to display their advertisements and other
           information in certain areas of the Site, such as sidebar
           advertisements or banner advertisements. If you are an advertiser, you
@@ -787,8 +690,10 @@ const TermsCondition = () => {
           rights. We simply provide the space to place such advertisements, and
           we have no other relationship with advertisers.
         </Typography>
-        <h2 id="link-thirteen">SITE MANAGEMENT</h2>
-        <Typography>
+        <h2 id="link-thirteen" className={classes.contentHeadings}>
+          SITE MANAGEMENT
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We reserve the right, but not the obligation, to: (1) monitor the Site
           for violations of these Terms of Use; (2) take appropriate legal
           action against anyone who, in our sole discretion, violates the law or
@@ -803,8 +708,10 @@ const TermsCondition = () => {
           Site in a manner designed to protect our rights and property and to
           facilitate the proper functioning of the Site.
         </Typography>
-        <h2 id="link-fourteen">PRIVACY POLICY</h2>
-        <Typography>
+        <h2 id="link-fourteen" className={classes.contentHeadings}>
+          PRIVACY POLICY
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We care about data privacy and security. Please review our Privacy
           Policy: http://www.noqhub.com/privacypolicy
           http://www.noqhub.com/privacypolicy. By using the Site, you agree to
@@ -817,8 +724,10 @@ const TermsCondition = () => {
           and you agree to have your data transferred to and processed in
           Pakistan.
         </Typography>
-        <h2 id="link-fifteen">COPYRIGHT INFRINGEMENTS</h2>
-        <Typography>
+        <h2 id="link-fifteen" className={classes.contentHeadings}>
+          COPYRIGHT INFRINGEMENTS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We respect the intellectual property rights of others. If you believe
           that any material available on or through the Site infringes upon any
           copyright you own or control, please immediately notify us using the
@@ -830,8 +739,10 @@ const TermsCondition = () => {
           not sure that material located on or linked to by the Site infringes
           your copyright, you should consider first contacting an attorney.
         </Typography>
-        <h2 id="link-sixteen">TERM AND TERMINATION</h2>
-        <Typography>
+        <h2 id="link-sixteen" className={classes.contentHeadings}>
+          TERM AND TERMINATION
+        </h2>
+        <Typography className={classes.contentTypographys}>
           These Terms of Use shall remain in full force and effect while you use
           the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE,
           WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR
@@ -843,8 +754,7 @@ const TermsCondition = () => {
           PARTICIPATION IN THE SITE OR DELETE YOUR ACCOUNT AND ANY CONTENT OR
           INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE
           DISCRETION.
-        </Typography>
-        <Typography>
+          <br />
           If we terminate or suspend your account for any reason, you are
           prohibited from registering and creating a new account under your
           name, a fake or borrowed name, or the name of any third party, even if
@@ -853,17 +763,18 @@ const TermsCondition = () => {
           appropriate legal action, including without limitation pursuing civil,
           criminal, and injunctive redress.
         </Typography>
-        <h2 id="link-seventeen">MODIFICATIONS AND INTERRUPTIONS</h2>
-        <Typography>
+        <h2 id="link-seventeen" className={classes.contentHeadings}>
+          MODIFICATIONS AND INTERRUPTIONS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We reserve the right to change, modify, or remove the contents of the
           Site at any time or for any reason at our sole discretion without
           notice. However, we have no obligation to update any information on
           our Site. We also reserve the right to modify or discontinue all or
           part of the Site without notice at any time. We will not be liable to
           you or any third party for any modification, price change, suspension,
-          or discontinuance of the Site.{" "}
-        </Typography>
-        <Typography>
+          or discontinuance of the Site.
+          <br />
           We cannot guarantee the Site will be available at all times. We may
           experience hardware, software, or other problems or need to perform
           maintenance related to the Site, resulting in interruptions, delays,
@@ -876,18 +787,21 @@ const TermsCondition = () => {
           construed to obligate us to maintain and support the Site or to supply
           any corrections, updates, or releases in connection therewith.
         </Typography>
-        <h2 id="link-eighteen">GOVERNING LAW</h2>
-        <Typography>
+        <h2 id="link-eighteen" className={classes.contentHeadings}>
+          GOVERNING LAW
+        </h2>
+        <Typography className={classes.contentTypographys}>
           These Terms shall be governed by and defined following the laws of
           Pakistan. Techscientia Private Limited and yourself irrevocably
           consent that the courts of Pakistan shall have exclusive jurisdiction
           to resolve any dispute which may arise in connection with these terms.
         </Typography>
-        <h2 id="link-nineteen">DISPUTE RESOLUTION</h2>
-        <Typography>
-          <strong>Binding Arbitration</strong>
-        </Typography>
-        <Typography>
+        <h2 id="link-nineteen" className={classes.contentHeadings}>
+          DISPUTE RESOLUTION
+        </h2>
+        <Typography className={classes.contentTypographys}>
+          <span className={classes.contentBold}>Binding Arbitration</span>
+          <br />
           Any dispute arising out of or in connection with this contract,
           including any question regarding its existence, validity or
           termination, shall be referred to and finally resolved by the
@@ -899,11 +813,9 @@ const TermsCondition = () => {
           Pakistan. The language of the proceedings shall be English. The
           governing law of the contract shall be the substantive law of
           Pakistan.
-        </Typography>
-        <Typography>
-          <strong>Restrictions</strong>
-        </Typography>
-        <Typography>
+          <br />
+          <span className={classes.contentBold}>Restrictions</span>
+          <br />
           The Parties agree that any arbitration shall be limited to the Dispute
           between the Parties individually. To the full extent permitted by law,
           (a) no arbitration shall be joined with any other proceeding; (b)
@@ -912,11 +824,9 @@ const TermsCondition = () => {
           there is no right or authority for any Dispute to be brought in a
           purported representative capacity on behalf of the general public or
           any other persons.
-        </Typography>
-        <Typography>
-          <strong>Exceptions to Arbitration</strong>
-        </Typography>
-        <Typography>
+          <br />
+          <span className={classes.contentBold}>Exceptions to Arbitration</span>
+          <br />
           The Parties agree that the following Disputes are not subject to the
           above provisions concerning binding arbitration: (a) any Disputes
           seeking to enforce or protect, or concerning the validity of, any of
@@ -930,16 +840,20 @@ const TermsCondition = () => {
           within the courts listed for jurisdiction above, and the Parties agree
           to submit to the personal jurisdiction of that court.
         </Typography>
-        <h2 id="link-twenty">CORRECTIONS</h2>
-        <Typography>
+        <h2 id="link-twenty" className={classes.contentHeadings}>
+          CORRECTIONS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           There may be information on the Site that contains typographical
           errors, inaccuracies, or omissions, including descriptions, pricing,
           availability, and various other information. We reserve the right to
           correct any errors, inaccuracies, or omissions and to change or update
           the information on the Site at any time, without prior notice.
         </Typography>
-        <h2 id="link-twentyone">DISCLAIMER</h2>
-        <Typography>
+        <h2 id="link-twentyone" className={classes.contentHeadings}>
+          DISCLAIMER
+        </h2>
+        <Typography className={classes.contentTypographys}>
           THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE
           THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK.
           TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES,
@@ -970,8 +884,10 @@ const TermsCondition = () => {
           ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION
           WHERE APPROPRIATE.
         </Typography>
-        <h2 id="link-twentytwo">LIMITATIONS OF LIABILITY</h2>
-        <Typography>
+        <h2 id="link-twentytwo" className={classes.contentHeadings}>
+          LIMITATIONS OF LIABILITY
+        </h2>
+        <Typography className={classes.contentTypographys}>
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
           EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
@@ -987,8 +903,10 @@ const TermsCondition = () => {
           LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS
           MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
         </Typography>
-        <h2 id="link-twentythree">INDEMNIFICATION</h2>
-        <Typography>
+        <h2 id="link-twentythree" className={classes.contentHeadings}>
+          INDEMNIFICATION
+        </h2>
+        <Typography className={classes.contentTypographys}>
           You agree to defend, indemnify, and hold us harmless, including our
           subsidiaries, affiliates, and all of our respective officers, agents,
           partners, and employees, from and against any loss, damage, liability,
@@ -1007,8 +925,10 @@ const TermsCondition = () => {
           or proceeding which is subject to this indemnification upon becoming
           aware of it.
         </Typography>
-        <h2 id="link-twentyfour">USER DATA</h2>
-        <Typography>
+        <h2 id="link-twentyfour" className={classes.contentHeadings}>
+          USER DATA
+        </h2>
+        <Typography className={classes.contentTypographys}>
           We will maintain certain data that you transmit to the Site for the
           purpose of managing the performance of the Site, as well as data
           relating to your use of the Site. Although we perform regular routine
@@ -1018,10 +938,10 @@ const TermsCondition = () => {
           corruption of any such data, and you hereby waive any right of action
           against us arising from any such loss or corruption of such data.
         </Typography>
-        <h2 id="link-twentyfive">
+        <h2 id="link-twentyfive" className={classes.contentHeadings}>
           ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
         </h2>
-        <Typography>
+        <Typography className={classes.contentTypographys}>
           Visiting the Site, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
           electronic communications, and you agree that all agreements, notices,
@@ -1037,8 +957,10 @@ const TermsCondition = () => {
           non-electronic records, or to payments or the granting of credits by
           any means other than electronic means.
         </Typography>
-        <h2 id="link-twentysix">MISCELLANEOUS</h2>
-        <Typography>
+        <h2 id="link-twentysix" className={classes.contentHeadings}>
+          MISCELLANEOUS
+        </h2>
+        <Typography className={classes.contentTypographys}>
           These Terms of Use and any policies or operating rules posted by us on
           the Site or in respect to the Site constitute the entire agreement and
           understanding between you and us. Our failure to exercise or enforce
@@ -1061,12 +983,13 @@ const TermsCondition = () => {
           execute these Terms of Use.
         </Typography>
         <br />
-        <h2 id="link-twentyseven">CONTACT US </h2>
-        <Typography>
+        <h2 id="link-twentyseven" className={classes.contentHeadings}>
+          CONTACT US
+        </h2>
+        <Typography className={classes.contentTypographys}>
           In order to resolve a complaint regarding the Site or to receive
           further information regarding use of the Site, please contact us at:
-        </Typography>
-        <Typography>
+          <br />
           Techscientia Private Limited <br />
           38/2 2nd Gizri Street, Phase 4 DHA <br />
           Karachi, Sindh

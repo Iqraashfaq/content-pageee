@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsCondition from "./Pages/TermsConditions/TermsCondition";

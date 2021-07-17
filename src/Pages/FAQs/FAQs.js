@@ -29,6 +29,13 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: theme.typography.fontWeightRegular,
     color: "white",
   },
+  acoordionLines: {
+    backgroundColor: "#e75788",
+    marginBottom: "25px",
+  },
+  contentTypographys: {
+    //for content typography ..
+  },
 }));
 
 const FAQs = () => {
@@ -44,16 +51,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{
-                backgroundColor: "#e75788",
-                marginBottom: "25px",
-                
-              }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 1</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -65,12 +68,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 2</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -83,12 +86,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 3</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -100,12 +103,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 4</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -117,12 +120,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 5</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -134,12 +137,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 6</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -151,12 +154,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 7</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -168,12 +171,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 8</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -185,12 +188,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 9</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -202,12 +205,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 10</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -219,12 +222,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 11</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
@@ -236,12 +239,12 @@ const FAQs = () => {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
-              style={{ backgroundColor: "#e75788", marginBottom: "25px" }}
+              className={classes.acoordionLines}
             >
               <Typography className={classes.heading}>FAQs 12</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+              <Typography className={classes.contentTypographys}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
                 eget.
